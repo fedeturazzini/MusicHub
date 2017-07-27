@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="4dp">
+
+    <ImageView
+        android:id="@+id/listSongImage"
+        android:layout_width="70dp"
+        android:layout_height="70dp"/>
+
+    <TextView
+        android:id="@+id/listSongTitle"
+        style="@style/Body"
+        android:layout_toRightOf="@id/listSongImage"
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="Titulo de la cancion"/>
+
+    <TextView
+        android:id="@+id/listSongDescription"
+        style="@style/Body"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:layout_toRightOf="@id/listSongImage"
+        android:layout_below="@id/listSongTitle"
+        android:layout_alignStart="@id/listSongTitle"
+        android:paddingBottom="10dp"
+        android:text="Descripcion de la cancion"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_keyboard_arrow_right_black_24dp"
+        android:layout_marginEnd="13dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true" />
+
+
+</RelativeLayout>

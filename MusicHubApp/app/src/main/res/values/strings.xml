@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">Music Hub</string>
+
+    <string name="open">drawer open</string>
+    <string name="close">drawer closed</string>
+
+
+    <!-- Navigation drawe -->
+    <string name="my_profile">My profile</string>
+    <string name="settings">Settings</string>
+    <string name="my_music">My music</string>
+    <string name="Logout">Sign out</string>
+    <string name="Help">Help</string>
+    <string name="HelpBody"> 1. Cargos: eres responsable del pago de todos los costes o gastos en los que incurras como resultado de descargar y usar cualquiera de las Aplicaciones de Sony Mobile, incluido cualquier cargo de red de operador o itinerancia. Consulta con tu proveedor de servicios los detalles al respecto.
+    Aplicaciones, servicios o sitios de terceros: las Aplicaciones de Sony Mobile pueden permitir que te enlaces o te conectes para usar funciones de aplicaciones, servicios o sitios de terceros que no sean propiedad de o estén controladas por Sony Mobile (de forma colectiva, “Aplicaciones de terceros”). Las Aplicaciones de terceros están sujetas a los términos y condiciones del proveedor tercero relevante. Sony Mobile no tiene control sobre, ni es responsable por, ningún asunto relacionado con tus tratos o transacciones con tales terceros ni sobre ningún contenido, contenido distribuido, aplicación, servicio, sitio, anuncio, enlace, política de privacidad o práctica de terceros a los que se pueda acceder a través de la Aplicación de Sony Mobile. Es tu responsabilidad consultar las políticas de privacidad y los términos y condiciones de servicio y uso de todos los sitios de terceros que visites antes de descargar o usar tales Aplicaciones de terceros.
+    Idioma: Es posible que algunos contenidos no existan en tu idioma.
+
+    2. Ingeniería inversa: te comprometes a no desensamblar, descompilar, aplicar ingeniería inversa o intentar en modo alguno obtener acceso al código fuente de cualquier Aplicación de Sony Mobile. No copiarás ninguna parte de la Aplicación de Sony Mobile ni harás uso comercial, alquilarás, prestarás, venderás, publicarás, otorgarás en licencia o sublicencia, distribuirás, asignarás ni transferirás de alguna forma ninguna parte de la Aplicación de Sony Mobile a un tercero.
+    Sony Mobile se reserva el derecho a realizar un seguimiento e informar, de forma anónima, a nuestros proveedores de servicios estadísticos de terceros, de tu actividad en la Aplicación de Sony Mobile.
+
+    3. Protección de tu información personal: queremos ayudarte a llevar a cabo todos los pasos necesarios para proteger tu privacidad e información. Por consiguiente, te pedimos que leas la Política de privacidad de Sony Mobile pertinente para que comprendas qué tipo de información recopilamos en cualquiera de las Aplicaciones de Sony Mobile y las medidas concretas que tomamos para proteger tu información personal.
+    PODEMOS, SIN NINGUNA RESPONSABILIDAD POR TU PARTE, MODIFICAR ESTOS TÉRMINOS Y CONDICIONES DE USO SIN AVISAR EN CUALQUIER MOMENTO. SI CONTINÚAS USANDO LAS APLICACIONES DE SONY MOBILE UNA VEZ REALIZADA CUALQUIER MODIFICACIÓN EN ESTOS TÉRMINOS Y CONDICIONES DE USO, ESE USO CONTINUADO CONSTITUIRÁ LA ACEPTACIÓN POR TU PARTE DE TAL MODIFICACIÓN.
+
+        SI NO ACEPTAS ESTOS TÉRMINOS Y CONDICIONES DE USO NI ACEPTAS QUEDAR SUJETO A ELLOS, NO DEBES USAR LA APLICACIÓN DE SONY MOBILE NI DESCARGAR O USAR CUALQUIER SOFTWARE RELACIONADO. EL USO QUE HAGAS DE LA APLICACIÓN DE SONY MOBILE QUEDA BAJO TU ÚNICA RESPONSABILIDAD. CADA APLICACIÓN DE SONY MOBILE SE OFRECE “TAL CUAL” Y “SEGÚN DISPONIBILIDAD”. NO OFRECEMOS NINGUNA GARANTÍA, Y RECHAZAMOS TODA RESPONSABILIDAD POR LA EXISTENCIA, OPORTUNIDAD, SEGURIDAD, FIABILIDAD Y CALIDAD DE CUALQUIER APLICACIÓN DE SONY MOBILE, CUALQUIER SOFTWARE O APLICACIÓN RELACIONADOS U OTROS PRODUCTOS, SERVICIOS E INFORMACIÓN OBTENIDOS A TRAVÉS DE LA APLICACIÓN DE SONY MOBILE. NO TENEMOS RESPONSABILIDAD ALGUNA POR LA ELIMINACIÓN DE, O LA INCAPACIDAD DE ALMACENAR O TRANSMITIR, CUALQUIER CONTENIDO U OTRA INFORMACIÓN MANTENIDA O TRANSMITIDA POR LA APLICACIÓN DE SONY MOBILE. NO SOMOS RESPONSABLES DE LA PRECISIÓN O LA FIABILIDAD DE CUALQUIER INFORMACIÓN O CONSEJO TRANSMITIDOS A TRAVÉS DE LA APLICACIÓN DE SONY MOBILE. PODEMOS, EN CUALQUIER MOMENTO, LIMITAR O INTERRUMPIR TU USO DE LAS APLICACIONES DE SONY MOBILE A NUESTRA ÚNICA DISCRECIÓN. HASTA EL MÁXIMO QUE PERMITE LA LEY, EN NINGÚN CASO SEREMOS RESPONSABLES POR CUALQUIER PÉRDIDA O DAÑO RELACIONADOS. ALGUNAS JURISDICCIONES NO PERMITEN LA EXCLUSIÓN O LIMITACIÓN DE DETERMINADOS DAÑOS, DE MODO QUE ES POSIBLE QUE LA LIMITACIÓN O LA EXCLUSIÓN ANTERIORES NO SEAN APLICABLES EN TU CASO. EN NINGÚN CASO NUESTRA RESPONSABILIDAD TOTAL SUPERARÁ LA CANTIDAD PAGADA POR TI (SI LA HUBIERA) POR LA APLICACIÓN DE SONY MOBILE Y EL SOFTWARE RELACIONADO.
+    Reconoces que poseemos todos los derechos, la propiedad y los intereses en relación con la Aplicación de Sony Mobile y el software relacionado. “Sony” es la marca comercial o la marca registrada de Sony Corporation. No alterarás, destruirás, ocultarás ni suprimirás en forma alguna ningún aviso de derechos de autor o de propiedad contenido en las Aplicaciones de Sony Mobile.
+    Hasta el máximo que permiten los derechos legales del cliente (conforme sean aplicables), estos Términos y condiciones de uso se rigen por las leyes de Suecia, excluidos sus conflictos con las disposiciones legales. Otorgas tu consentimiento a la jurisdicción de los tribunales de Suecia.
+    Ir al inicio de la sección Legal</string>
+    <string name="favorite">Favorite</string>
+    <string name="find">Find</string>
+    <string name="home">Home</string>
+
+    <string name="registerUser">User</string>
+    <string name="registerEmail">Email</string>
+    <string name="registerConfirmPassword">Confirm Password</string>
+    <string name="registerPassword">Password</string>
+    <string name="registerBtnRegister">Register</string>
+    <string name="registerDescription">Register to have a better music experience</string>
+
+    <string name="loginUser">User</string>
+    <string name="loginPassword">Password</string>
+    <string name="loginBtnSubmit">Login</string>
+    <string name="loginText">Login</string>
+    <string name="loginDescription">Login to your account and enjoy your favorite music!</string>
+    <string name="loginRegisterText">Create an account</string>
+
+    <string name="com.twitter.sdk.android.CONSUMER_KEY">DqGulMuttKqTFDsBDrxU2lcbT</string>
+    <string name="com.twitter.sdk.android.CONSUMER_SECRET">Gv9tNesj1hisKpctBMDN4pHG2RIoEe0TDRu7sZ3b5PjjyN9kg0</string>
+    <string name="facebook_app_id">145646649328086</string>
+    <string name="fb_login_protocol_scheme">fb145646649328086</string>
+
+
+
+</resources>

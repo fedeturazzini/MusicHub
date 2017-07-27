@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="digitalhouse.android.a0317moacns1c_01">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:name="digitalhouse.android.Util.MyApplicationMusicHub">
+
+        <provider android:authorities="com.facebook.app.FacebookContentProvider145646649328086"
+            android:name="com.facebook.FacebookContentProvider"
+            android:exported="true"/>
+
+        <receiver
+            android:name="digitalhouse.android.Util.MyResultReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.twitter.sdk.android.tweetcomposer.UPLOAD_SUCCESS"/>
+                <action android:name="com.twitter.sdk.android.tweetcomposer.UPLOAD_FAILURE"/>
+            </intent-filter>
+        </receiver>
+
+        <meta-data android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id"/>
+
+        <activity android:name="com.facebook.FacebookActivity"
+            android:configChanges=
+                "keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name" />
+
+
+
+        <activity android:name="digitalhouse.android.View.Activities.ActivityMain"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name="digitalhouse.android.View.Activities.ActivitySongDetail"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name="digitalhouse.android.View.Activities.ActivitySplashScreen"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="digitalhouse.android.View.Activities.ActivityRegister"
+            android:theme="@style/NoActionBar"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name="digitalhouse.android.View.Activities.ActivityLogin"
+            android:theme="@style/NoActionBar"
+            android:screenOrientation="portrait"></activity>
+
+    </application>
+
+</manifest>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="180dp"
+    android:padding="@dimen/activity_horizontal_margin"
+    android:background="@drawable/fondo_header2">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imagenUsuario"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignBottom="@+id/textView"
+        android:layout_gravity="left|center"
+        android:layout_centerHorizontal="true"
+        app:border_width="2dp"
+        app:border_color="@color/colorTransparent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        style="@style/Title"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/usuarioNavigation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+
+        android:textColor="@color/color_white"
+        android:layout_gravity="left|center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+
+        android:layout_below="@+id/usuarioNavigation"
+        android:layout_alignStart="@+id/usuarioNavigation"
+        android:id="@+id/textViewMailHeader"
+        android:textColor="@color/color_white"
+        android:layout_gravity="left|center"/>
+
+</LinearLayout>

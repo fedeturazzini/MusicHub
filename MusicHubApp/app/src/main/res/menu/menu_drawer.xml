@@ -1,0 +1,43 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/grupo1"
+        >
+        <item
+            android:id="@+id/menu_seccion_myprofile"
+            android:icon="@drawable/ic_person_black_24dp"
+            android:title="@string/my_profile"/>
+        <item
+            android:id="@+id/menu_seccion_mymusic"
+            android:icon="@drawable/favoritemenudrawer"
+            android:title="@string/my_music"/>
+    </group>
+
+    <group android:id="@+id/grupo2"
+        >
+        <!--<item-->
+            <!--android:id="@+id/menu_seccion_1"-->
+            <!--android:title=""/>-->
+
+        <item
+            android:id="@+id/menu_seccion_register"
+            android:icon="@drawable/ic_https_black_24dp"
+            android:title="@string/loginBtnSubmit"/>
+
+        <!--<item-->
+            <!--android:id="@+id/menu_seccion_settings"-->
+            <!--android:icon="@drawable/ic_settings_black_24dp"-->
+            <!--android:title="@string/settings"/>-->
+
+        <!--<item-->
+            <!--android:id="@+id/menu_seccion_signout"-->
+            <!--android:icon="@drawable/ic_exit_to_app_black_24dp"-->
+            <!--android:title="@string/Logout"/>-->
+
+        <!--<item-->
+            <!--android:id="@+id/menu_seccion_help"-->
+            <!--android:icon="@drawable/ic_feedback_black_24dp"-->
+            <!--android:title="@string/Help"/>-->
+    </group>
+
+
+</menu>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/parentDrawerID"
+    tools:context="digitalhouse.android.View.Activities.ActivityMain">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <!--<include layout="@layout/toolbar"/>-->
+    </RelativeLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/contenedorLista"
+        android:layout_marginBottom="55dp">
+
+        <TextView
+            android:id="@+id/textoBuscado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <android.support.design.widget.BottomNavigationView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/botton_navigation"
+            android:background="@color/colorPrimary"
+            app:itemIconTint="@drawable/nav_item_color_state"
+            app:itemTextColor="@drawable/nav_item_color_state"
+            app:menu="@menu/naviagtion_botton"
+            android:layout_gravity="bottom"/>
+
+    </LinearLayout>
+
+    <com.rom4ek.arcnavigationview.ArcNavigationView
+        android:id="@+id/navigationView"
+        app:menu="@menu/menu_drawer"
+        android:layout_gravity="start"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        app:arc_cropDirection="cropOutside"
+        app:arc_width="96dp"
+        android:fitsSystemWindows="true"
+        app:headerLayout="@layout/header_drawer"/>
+
+
+</android.support.v4.widget.DrawerLayout>
+
+
+
