@@ -7,9 +7,6 @@ import java.util.ArrayList;
 
 import digitalhouse.android.Model.POJO.Track;
 
-/**
- * Created by gaston on 19/07/17.
- */
 
 public class MediaPlayerHelper {
 
